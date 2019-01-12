@@ -40,4 +40,10 @@ git status
 查看文件变更的状态
 
 git commit -m '本次提交的描绘信息'  
-正式提交到git工作区 
+正式提交到git工作区
+
+git reset --hard 
+对暂存区和工作目录的历史清空  
+
+git mv file1 file2
+变更文件名
