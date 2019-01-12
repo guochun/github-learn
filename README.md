@@ -33,11 +33,11 @@ cd my_project
 
 ### 如何提交项目
 
-git add file_name | .(全部文件)  
+git add file_name | .(全部文件)  | -u(已经把git托管的文件)
 将文件提交到缓存区
 
 git status 
 查看文件变更的状态
 
 git commit -m '本次提交的描绘信息'  
-正式提交到git仓库  
+正式提交到git工作区 
