@@ -36,14 +36,26 @@ cd my_project
 git add file_name | .(全部文件)  | -u(已经把git托管的文件)
 将文件提交到缓存区
 
-git status 
-查看文件变更的状态
+git status  
+查看文件变更的状态 
 
-git commit -m '本次提交的描绘信息'  
-正式提交到git工作区
+git commit -m '本次提交的描绘信息'   
+正式提交到git工作区 
 
 git reset --hard 
-对暂存区和工作目录的历史清空  
+对暂存区和工作目录的历史清空    
 
 git mv file1 file2
-变更文件名
+变更文件名  
+
+### 查看历史的变更信息  
+
+git log 产看变更历史  
+
+--online 每个变更的历史以单行的形式显示出来  
+
+-n(number) 指定产看最近的number的提交  
+
+--all 查看所有分支的历史
+
+git branch -v 查看本地有多少分支  
