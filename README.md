@@ -77,3 +77,13 @@ objects - 仓库所有的对象
 一个tree 对应着当前commit所有的文件和文件夹
 一个tree由多个tree和blob组成
 文件内容(不管文件名如何)相同就为同一个blob
+
+### 分离头指针(detached HEAD)
+git checkout (commit hash) 根据一次提交的commit hash 创建一个分支并切换 并处于分离头指针的状态
+分离头指针的两面性
+- 在分离头指针的状态下 每一次commit 都不会被git保管
+- 但是在如果只是想尝试处理某一些事情但不想把他作为一个分支可以使用
+
+git commit -am 'message' 把文件放到暂存区在生成commit
+
+
