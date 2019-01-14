@@ -62,3 +62,12 @@ git branch -v 查看本地有多少分支
 
 ### git 图形化界面
 gitk 打开git图像化界面
+
+### .git目录
+
+HEAD - 代表当前工作的分支
+config -  记录着本仓库相关的一些配置文件
+refs - 存放和仓库有关的对象引用
+git cat - file -t  查看文件对象的类型
+               -p  查看内容
+objects - 仓库所有的对象
