@@ -71,3 +71,9 @@ refs - 存放和仓库有关的对象引用
 git cat - file -t  查看文件对象的类型
                -p  查看内容
 objects - 仓库所有的对象
+
+### commit tree blob 三个对象关系
+一个commit对应一个tree
+一个tree 对应着当前commit所有的文件和文件夹
+一个tree由多个tree和blob组成
+文件内容(不管文件名如何)相同就为同一个blob
