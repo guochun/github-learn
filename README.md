@@ -59,3 +59,6 @@ git log 产看变更历史
 --all 查看所有分支的历史
 
 git branch -v 查看本地有多少分支  
+
+### git 图形化界面
+gitk 打开git图像化界面
