@@ -87,3 +87,9 @@ git checkout (commit hash) 根据一次提交的commit hash 创建一个分支�
 git commit -am 'message' 把文件放到暂存区在生成commit
 
 
+### HEAD and BRANCH
+git checkout -b branch_name 创建新分支并切换到新分支
+HEAD 只能对应一个commit 
+HEAD 指代分支指代的是最近一次commit
+git diff commit_a commit_a 查看两次commit的不同
+git diff HEAD HEAD^^^ 查看这次commit与他祖先的不同
