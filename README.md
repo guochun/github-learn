@@ -93,3 +93,13 @@ HEAD 只能对应一个commit
 HEAD 指代分支指代的是最近一次commit
 git diff commit_a commit_a 查看两次commit的不同
 git diff HEAD HEAD^^^ 查看这次commit与他祖先的不同
+git diff HEAD HEAD~n 查看这次commit和上几次提交不同
+
+### 删除分支
+
+git branch -d branch_name 删除已经合并分支
+           -D 强制删除分支
+
+
+
+
