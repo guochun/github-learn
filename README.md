@@ -100,6 +100,8 @@ git diff HEAD HEAD~n 查看这次commit和上几次提交不同
 git branch -d branch_name 删除已经合并分支
            -D 强制删除分支
 
+### modified latest branch
+git commit --amend 修改最新的一条分支
 
 
 
